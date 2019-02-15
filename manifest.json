@@ -1,0 +1,20 @@
+{
+  "name": "Clip",
+  "version": "0.1",
+  "description": "The clean and simple tab organizer. Clip allows you to unclutter your workspace by centralizing and storing your tabs.",
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_128.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_128.png",
+      "128": "images/icon_128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "permissions": ["tabs"]
+}
